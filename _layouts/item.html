@@ -15,7 +15,7 @@ gallery: true
             <div class="card mb-2">
                 {% if page.format contains 'image' %}
                 <div class="gallery-img" data-src="{{ site.data.theme.objects }}/{{ item.object-id }}.jpg">
-                    <p><img src="{{ site.data.theme.objects }}/{{ page.object-id }}.jpg" alt="{{ page.title | escape }}" alt="item thumbnail" class="img-fluid"></p>
+                    <p><img src="https://img.youtube.com/vi/{{ page.youtube-id }}/0.jpg" alt="{{ page.title | escape }}" alt="item thumbnail" class="img-fluid"></p>
                     <p class="text-center"><small>Click to view full screen</small></p>
                 </div>
                 {%- elsif page.format contains 'audio' -%}
@@ -29,7 +29,7 @@ gallery: true
                 </div>
                 {%- elsif page.youtube-id -%}
                 <div>
-                    <p><img src="{{ site.data.theme.objects }}/{{ page.object-id }}.jpg" alt="{{ page.title | escape }}" alt="item thumbnail" class="img-fluid"></p>
+                    <p><img src="https://img.youtube.com/vi/{{ page.youtube-id }}/0.jpg" alt="{{ page.title | escape }}" alt="item thumbnail" class="img-fluid"></p>
                 </div>
                 {%- elsif page.format contains 'video' -%}
                 <div class="mt-4">

@@ -1,10 +1,10 @@
 # Jekyll Digital Collection Generator
 
 # Site settings
-title: Idaho Queered
-fancy-title: Idaho<sup class="rainbow">Queered</sup>
+title: Josephy Video Collection
+fancy-title: Josephy Video Collection
 # choose metadata, be sure to also change page_gen data setting!
-metadata: idlgbtq # check against cdm-collection-id below -- this should be used in config file as well
+metadata: josephy # check against cdm-collection-id below -- this should be used in config file as well
 
 # repository variables (leave blank if self-contained)
 # url for our CDM server
@@ -15,20 +15,20 @@ metadata: idlgbtq # check against cdm-collection-id below -- this should be used
 objects: https://www.lib.uidaho.edu/media/queered
 
 # header and head metadata
-tagline: Proud Histories from the Gem State
-description: "Preserving LGBTQ history through video storytelling." 
-keywords: "Idaho; LGBTQ; oral history" # describing the whole collection -- add to the two provided
+tagline: Josephy Library Videos
+description: "Videos of events at the Josephy Library." 
+keywords: "Oregon; Wallowa County; Native Americans; Alvin Josephy; Josephy Library" # describing the whole collection -- add to the two provided
 author: # You! Add your github username 
 
 # Home page
 # home-banner-image-number: 15 # use number of photo from collection
-home-banner-image-link:  https://www.lib.uidaho.edu/media/queered/cecilie-johnsen-1154701-unsplash2.jpg # leave blank unless no cdm number to generate item
+home-banner-image-link:  https://josephy.org/wp-content/uploads/2019/06/Harmony-Chiefs.jpg # leave blank unless no cdm number to generate item
 home-banner-image-title: Photo by Cecilie Johnsen on Unsplash # for accessibility 
 home-title-y-padding: 3em # the margin from the top your title portion will appear
 carousel-height: # in px, but don't include the "px"; default is 300.
 featured-subjects: #separate semi-colon(';') - if left blank, will be automatically generated to create top 5 subjects
 featured-subjects-max: 6 # set number of top subjects to display if auto generating
-featured-locations: Ada County;Bannock County;Bonne County;Bonner County;Bonneville County;Canyon County;Clearwater County;Custer County;Elmore County;Gem County;Kootenai County;Latah County;Lewis County;Madison County;Nez Perce County;Payette County;Power County;Teton County;Valley County #separate by semi-colon(';') - if left blank, will be automatically generated to create top 5 locations
+featured-locations:  #separate by semi-colon(';') - if left blank, will be automatically generated to create top 5 locations
 featured-locations-max: 3
 mediatypes: video #options[documents,images,video,sound,data] separate semi-colon(';'). If semi-colon is present, the browse items on the browse page will display a type field. If only one media type (and thus no semi-colon), no type field will display
 
