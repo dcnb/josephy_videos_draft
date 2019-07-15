@@ -1,6 +1,6 @@
 field,display-name,dc-map,browse-link
-title,,DC.title
+title,Title,DC.title
 date,Date,DCTERMS.created
 description,Description,DC.description
-type,Type,DC.type
-format,Format
+type,Type,DC.type,true
+format,Format,DC.Format
